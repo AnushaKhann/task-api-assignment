@@ -67,6 +67,7 @@ task-api/
 │
 ├── BUG_REPORT.md              # Bugs discovered and fixes
 ├── package.json
+├── .gitignore
 └── README.md
 ```
 
@@ -107,6 +108,17 @@ The API will run on:
 ```
 http://localhost:3000
 ```
+---
+
+# Live API
+
+The deployed API is available at:
+
+https://task-api-assignment-0uk0.onrender.com
+
+Base API URL:
+
+https://task-api-assignment-0uk0.onrender.com/tasks
 
 ---
 
@@ -147,9 +159,11 @@ Functions: 90%+
 
 Base URL:
 
-```
+Production:
+https://task-api-assignment-0uk0.onrender.com/tasks
+
+Local:
 http://localhost:3000/tasks
-```
 
 ---
 
@@ -460,6 +474,26 @@ The API handles:
 - Validation errors (`400`)
 - Missing resources (`404`)
 - Unexpected server errors (`500`)
+
+---
+
+# Deployment
+
+The application is deployed using Render.
+
+Deployment configuration:
+
+- Runtime: Node.js
+- Build Command:
+
+```bash
+npm install
+```
+- Start Command:
+
+```bash
+npm start
+```
 
 ---
 
